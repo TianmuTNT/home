@@ -8,7 +8,7 @@
         :href="item.url"
         target="_blank"
         @mouseenter="socialTip = item.tip"
-        @mouseleave="socialTip = '通过这里联系我吧'"
+        @mouseleave="socialTip = '你好~'"
       >
         <img class="icon" :src="item.icon" height="24" />
       </a>
